@@ -11,7 +11,8 @@ const Banner = () => {
             </div>
             <div className="col-md-6">
                 <div className={`${styles.industry_img}`}>
-                <Image  src="/Vector.png"  layout="fill" className={`p-1`} />
+                {/* <Image src="/Vector.png" className={`p-1`}  layout='fill'/> */}
+               
                 </div>
             </div>
         </div>
