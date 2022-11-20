@@ -1,0 +1,102 @@
+$primary-color : #F9FAFD;
+.Header_section {
+    background-color: $primary-color;
+    width: 100%;
+    padding: 0;
+    .logo_img{
+      position: relative;
+      width: 100px;
+      height: 100px;
+      .logo{
+        padding: 10px 20px;
+      }
+    }
+    .menu_btn {
+      width: 35px;
+      height: 4px;
+      background-color: #5F90CD;
+      position: absolute;
+      top: 35px;
+      right: 0;
+  
+  
+      &.active_btn {
+        background-color: transparent;
+  
+        &::before {
+          top: 0;
+          transform: rotate(45deg);
+          -webkit-transition: all 500ms ease-in-out;
+          transition: all 500ms ease-in-out;
+        }
+  
+        &::after {
+          top: 0;
+          transform: rotate(-45deg);
+          -webkit-transition: all 500ms ease-in-out;
+          transition: all 500ms ease-in-out;
+  
+        }
+      }
+  
+      &::before,
+      &::after {
+        content: "";
+        width: 35px;
+        height: 4px;
+        background: #5F90CD;
+        position: absolute;
+        top: -10px;
+        -webkit-transition: all 500ms ease-out;
+        transition: all 500ms ease-out;
+      }
+  
+      &::after {
+        top: 10px;
+      }
+    }
+  
+    .menu_list {
+      -webkit-transition: all 500ms ease-out;
+      transition: all 500ms ease-out;
+      // height: 30vh;
+      width: 90%;
+  
+      .menu {
+        color: black;
+        font-size: 18px;
+  
+        &::hover {
+          color: #5F90CD;
+        }
+  
+      }
+    }
+  
+    .btn_bg {
+      background-color: #5F90CD;
+      width: 120px;
+    }
+  
+  }
+  
+  @media screen and (min-width: 991px) {
+    .Header_section {
+      .menu_btn {
+        display: none;
+      }
+    }
+  }
+  
+  @media screen and (max-width: 991px) {
+    .Header_section {
+      .menu_btn {
+        -webkit-transition: all 1s ease-in-out;
+        transition: all 1s ease-in-out;
+      }
+    }
+  }
+
+  .Home_container {
+    padding: 0px !important;
+}

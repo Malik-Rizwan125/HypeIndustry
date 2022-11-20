@@ -1,0 +1,95 @@
+.services_banner{
+
+background-color: #F9FAFD;
+.img_container{
+    position: relative;
+    width: 80%;
+    height: 60vh;
+    margin-left: auto;
+    .Services_img {
+        width: 100%;
+        object-fit: cover; // Optional 
+    }
+}
+}
+
+@media screen and (max-width: 991px) {
+    .services_banner{
+
+        background-color: #F9FAFD;
+    .img_container{
+        position: relative;
+        width: 100%;
+        height: 35vh;
+        margin-left: 0;
+        .Services_img {
+            width: 100%;
+            object-fit: cover; // Optional 
+        }
+    }
+  }
+}
+
+.relationShip{
+    .img_container{
+        position: relative;
+        width: 100%;
+        height: 30vh;
+        .Services_img {
+            width: 100%;
+            object-fit: cover; // Optional 
+        }
+}
+}
+.business{
+    background-color: #F9FAFD;
+    .img_container{
+        position: relative;
+        width: 100%;
+        height: 60vh;
+        .Services_img {
+            width: 100%;
+            object-fit: cover; // Optional 
+        }
+     }
+
+    .Utopia_img{
+        position: relative;
+        width: 100%;
+        height: 40vh;
+        .Services_img {
+            width: 100%;
+            object-fit: cover; // Optional 
+        }
+     }
+
+}
+
+.reality{
+    .img_container{
+        position: relative;
+        width: 100%;
+        height: 45vh;
+        .Services_img {
+            width: 100%;
+            object-fit: cover; // Optional 
+        }
+     }
+
+    .Utopia_img{
+        position: relative;
+        width: 100%;
+        height: 40vh;
+        .Services_img {
+            width: 100%;
+            object-fit: cover; // Optional 
+        }
+     }
+}
+
+.selling_img{
+    position: relative;
+    width: 90px;
+    height: 70px;
+    
+  }

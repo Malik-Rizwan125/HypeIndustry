@@ -1,0 +1,59 @@
+.banner_section {
+    position: relative;
+
+    .mange_banner_content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 75vh;
+
+        .banner_content {
+            background-color: #F9FAFD;
+            height: 100%;
+        }
+
+        .banner_img {
+            position: relative;
+            height: 100%;
+            width: 100%;
+        }
+    }
+    .text_set {
+        content: "";
+        position: absolute;
+        width: 36%;
+        left: 9%;
+        
+        .read_btn {
+            background-color: #67CBAB;
+        }
+    }
+}
+
+
+
+@media only screen and (max-width: 912px) {
+    .banner_section {
+        position: relative;
+    
+        .mange_banner_content {
+            flex-direction: column;
+            height: 50vh;
+    
+            .banner_content {
+                background-color: #F9FAFD;
+                height: 100%;
+                .read_btn {
+                    background-color: #67CBAB;
+                }
+            }
+    
+        }
+        .text_set {
+            content: "";
+            position: absolute;
+            width: 80%;
+            left: 9%;
+        }
+    }
+}

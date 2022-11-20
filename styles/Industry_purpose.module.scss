@@ -1,0 +1,20 @@
+.Industry_purpose{
+    .img_position {
+        .content_img {
+            width: 100%;
+        }
+    }
+    .work_content{
+       border-left: 1px solid black;
+       height: 296px;
+       .manage_content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        text-align: left;
+    
+       }
+    }
+}
